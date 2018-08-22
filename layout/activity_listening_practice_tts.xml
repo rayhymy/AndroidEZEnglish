@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".listen.ListeningPracticeTTS">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:text="@string/write_your_word_text_and_press_the_icon_to_listen_it"
+        android:textColor="@color/colorTransparentWhite"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="@string/write_your_word_or_sentence"
+        android:textColorHint="@color/colorAccent"/>
+
+    <ImageView
+        android:id="@+id/button_speak1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vocina"
+        android:onClick="speak"/>
+
+</LinearLayout>
+
+</LinearLayout>

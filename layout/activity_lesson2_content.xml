@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".vocabulary.verbs.Lesson2Content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Irregular Verb"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:hint="write the verb" />
+
+
+    <Button
+        android:id="@+id/button_speak1"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:text="Touch and Listen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="10dp" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinner0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/background_dark"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+
+
+            <Spinner
+                android:id="@+id/spinner012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+
+            <Spinner
+                android:id="@+id/spinner036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+
+
+            <Spinner
+                android:id="@+id/spinner038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner053"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner054"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner055"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner056"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner057"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner058"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner059"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner061"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner062"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner063"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner064"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner065"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner068"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner069"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner071"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner072"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner073"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner074"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner075"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner076"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner077"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner078"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner079"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+
+
+            <Spinner
+                android:id="@+id/spinner080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner082"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner083"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner084"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner085"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+
+
+            <Spinner
+                android:id="@+id/spinner086"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner087"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner088"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner089"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner090"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner091"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner092"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner093"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+            <Spinner
+                android:id="@+id/spinner094"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+
+            <Spinner
+                android:id="@+id/spinner098"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="@android:color/darker_gray"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                tools:spinnerMode="dialog">
+            </Spinner>/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

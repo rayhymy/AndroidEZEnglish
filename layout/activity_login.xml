@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="LOGO"
+            android:src="@drawable/ezenglishlogo" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:hint="@string/enter_mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_lock"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/sign_in"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="sign_in"
+                android:src="@drawable/sign_in" />
+
+            <ImageView
+                android:id="@+id/sign_up"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="sign_up"
+                android:src="@drawable/sign_up" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

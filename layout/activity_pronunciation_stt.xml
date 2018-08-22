@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".listen.PronunciationSTT">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:text="@string/press_the_button_and_speak"
+        android:textColor="@color/colorTransparentWhite"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/edit_text_pronunciation_stt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:hint="@string/your_speech"
+        android:textColorHint="@color/colorAccent"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="getSpeechInput"
+        android:src="@drawable/mic" />
+    </LinearLayout>
+
+</LinearLayout>

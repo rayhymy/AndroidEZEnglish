@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.ListeningActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/listening_title_1" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/unitI"
+                            android:layout_width="@dimen/buttonWidth"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/pronunciation"
+                            android:onClick="displayPronunciation"/>
+
+                        <ImageView
+                            android:id="@+id/unitII"
+                            android:layout_width="@dimen/buttonWidth"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/listeningpractice"
+                            android:onClick="displayListeningPractice"/>
+                </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

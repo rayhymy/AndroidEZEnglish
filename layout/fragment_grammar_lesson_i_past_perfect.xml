@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_background"
+    tools:context=".grammar.lesson1.GrammarLessonIPastPerfect">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/past_perfect_tense" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="265dp"
+                    android:src="@drawable/past_perfect_description" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/past_perfect_description"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/how_it_forms_present_perfect"
+                    android:layout_width="@dimen/buttonWidth"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:src="@drawable/how_it_forms"
+                    android:onClick="pastPerfectPopUp"
+                    tools:ignore="OnClick" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/past_perfect_example"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Event A"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_first_event_a"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_second_event_a"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_third_event_a"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_fourth_event_a"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="200dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Event B"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_first_event_b"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_second_event_b"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_third_event_b"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/past_perfect_fourth_event_b"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"
+                    android:src="@drawable/past_perfect_description_finally" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
